@@ -1,5 +1,5 @@
 
-FROM microsoft/dotnet
+FROM microsoft/dotnet:2-runtime
 
 ENV ASPNETCORE_URLS http://*:3000
 
