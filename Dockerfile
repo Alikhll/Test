@@ -3,9 +3,9 @@ FROM microsoft/dotnet:latest
 
 ENV ASPNETCORE_URLS http://*:3000
 
-COPY . /www
+COPY . /app
 
-WORKDIR /www
+WORKDIR /app
 
 RUN dotnet restore
 
